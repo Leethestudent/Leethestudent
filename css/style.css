@@ -78,3 +78,14 @@ img {
   height: 350px;
   object-fit: cover;
 }
+
+.welcomeSection .welcomeMessage {
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+}
+
+.welcomeSection .welcomeMessage h2 {
+  text-align: center;
+  font-weight: bold;
+}
