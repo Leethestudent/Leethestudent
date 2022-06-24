@@ -36,6 +36,8 @@ img {
   width: 100%;
 }
 
+/*Navbar*/
+
 .navbar {
   background-color: #047aed;
   color: #fff;
@@ -93,4 +95,10 @@ img {
 
 .welcomeSection .welcomeMessage p {
   font-size: 1.3em;
+}
+
+.welcomeSection .joinus .row {
+  display: flex;
+  justify-content: space-between;
+  object-fit: cover;
 }
