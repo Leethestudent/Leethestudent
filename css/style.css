@@ -88,4 +88,9 @@ img {
 .welcomeSection .welcomeMessage h2 {
   text-align: center;
   font-weight: bold;
+  font-size: 2.7em;
+}
+
+.welcomeSection .welcomeMessage p {
+  font-size: 1.3em;
 }
