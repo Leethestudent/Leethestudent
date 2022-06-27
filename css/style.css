@@ -76,6 +76,8 @@ img {
   height: 100%;
 }
 
+/* Welcome Section */
+
 .welcomeSection .welcomeImage img {
   height: 350px;
   object-fit: cover;
@@ -102,3 +104,44 @@ img {
   justify-content: space-between;
   object-fit: cover;
 }
+
+.welcomeSection .joinus .row img {
+  border: 10px solid #40e0d0;
+  border-radius: 1em;
+}
+
+.welcomeSection .joinus .row .card {
+  position: relative;
+  padding: 5px;
+}
+
+.welcomeSection .joinus .row .col .card .card-body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.welcomeSection .joinus .row .col .card .card-body:hover {
+  opacity: 1;
+}
+
+.welcomeSection .joinus .row .col .card .card-body > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.welcomeSection .joinus .row .col .card .card-body:hover > * {
+  transform: translateY(0);
+}
+
+/* Footer */
