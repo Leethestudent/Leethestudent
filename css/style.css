@@ -4,6 +4,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background: none;
 }
 
 body {
@@ -144,4 +145,19 @@ img {
   transform: translateY(0);
 }
 
+/*AboutUs*/
+
+.aboutusSection {
+}
+
 /* Footer */
+
+.footer {
+  margin: 20px;
+  background-color: #047aed;
+}
+
+.footer .container .social {
+  float: right;
+  margin: 1em;
+}
