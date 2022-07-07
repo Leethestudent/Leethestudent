@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>Jane Academy</title>
+</head>
+<body>
+  <!--Navbar-->
+  <div class="navbar">
+    <div class="container flex">
+      <h1 class="logo">Jane School</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="programmes.html">Programmes Offered</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="newsletters.html">Newsletters</a></li>
+          </ul>
+        </nav>
+
+    </div>
+    
+  </div>
+
+  <!--Section-->
+  <section class="admissions">
+    <div class="admin-image">
+      <img src="images/admin-img.jpg" alt="admissions image">
+    </div>
+    <div class="admin">
+      <div class="admin-background">
+        <h2>Admissions</h2>
+      </div>
+      <p>Thank you for your interest in Jane Academy. These are the admission
+         requirements for your child to be considered at our institution:</p>
+      <ol class="list-group">
+        <li>A copy of the birth certificate</li>
+        <li>A copy the parents/guardians ID card/Passport</li>
+        <li>School report from the student's latest school (if applicable)</li>
+        <li>Student and/or Parent/Guardian entrance interview</li>
+        <li>Completion of online application</li>
+      </ol>
+    </div>
+
+    <div class="applic-form">
+      <h3>Online Application Form</h3>
+    </div>
+
+    <form name="admission" method="post" data-netlify="true">
+      <div>
+        <label for="">Student's Name:</label>
+        <input type="text" name="name" placeholder="Student's Name">
+      </div>
+      <div>
+        <label for="">Parent's/Guardian's Name:</label>
+        <input type="text" name="name" placeholder="Parent's Name">
+      </div>
+      <div>
+        <label for="">Email:</label>
+        <input type="email" name="email" placeholder="Email">
+      </div>
+      <div>
+        <label>Grade: 
+          <select>
+            <option value="leader">Pre-Kindergarten</option>
+            <option value="follower">Kindergarten</option>
+            <option value="leader">Elementary</option>
+            <option value="follower">Primary</option>
+          </select>
+        </label>
+      </div>
+      <br>
+      <div>
+        <button type="submit">Send</button>
+      </div>
+    </form>
+  </section>
+  
+  <!--Footer-->
+  <footer class="footer">
+    <div class="container">
+      <div>
+        <h1>Jane School</h1>
+        <p>Copyright &copy; 2022</p>
+      </div>
+
+      <div class="social">
+        <a href="#"><div class="fab fa-facebook fa-2x"></div></a>
+        <a href="#"><div class="fab fa-instagram fa-2x"></div></a>
+        <a href="#"><div class="fab fa-twitter fa-2x"></div></a>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>

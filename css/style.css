@@ -147,17 +147,223 @@ img {
 
 /*AboutUs*/
 
-.aboutusSection {
+.aboutusSection .aboutus {
+  margin: auto;
+  width: 80%;
+}
+
+.aboutusSection .aboutus h2 {
+  text-align: center;
+  font-size: 2.7em;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.aboutusSection .aboutus .story h3 {
+  font-size: 1.7em;
+}
+
+.aboutusSection .aboutus .vision h3 {
+  font-size: 1.7em;
+}
+
+.aboutusSection .aboutus .staff h3 {
+  font-size: 1.7em;
+  margin-bottom: 20px;
+}
+
+.aboutusSection .aboutus p {
+  font-size: 1.2em;
+}
+
+.aboutusSection .aboutus .staff .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+}
+
+.aboutusSection .aboutus .staff .row .col {
+  border: 10px solid #40e0d0;
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 0.5rem;
 }
 
 /* Footer */
 
 .footer {
-  margin: 20px;
   background-color: #047aed;
+  width: 100%;
 }
 
 .footer .container .social {
   float: right;
   margin: 1em;
+}
+
+/*Programess Section*/
+
+.programmes .program-cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.programmes .program-cards .card {
+  margin: 10px;
+  height: 200px;
+  margin-bottom: 60px;
+}
+
+.programmes .program-cards .card img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  transition: 0.7s;
+}
+
+.programmes .program-cards .card img:hover {
+  transform: scale(1.2);
+}
+
+.programmes .program-cards .card .card-body p {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+/*Admissions Section*/
+
+.admissions .admin h2 {
+  text-align: center;
+  font-size: 2.7em;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.admissions .admin-image img {
+  height: 300px;
+  width: 100%;
+  object-fit: fill;
+}
+
+.admissions .admin p {
+  margin: auto;
+  width: 80%;
+  font-size: 1.3rem;
+}
+
+.admissions .admin ol {
+  margin: auto;
+  width: 80%;
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+.admissions .applic-form h3 {
+  text-align: center;
+  font-size: 1.7em;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.admissions input[type="text"] {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.admissions input[type="email"] {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.admissions label {
+  width: 200px;
+  text-align: right;
+  clear: both;
+  float: left;
+  margin-right: 15px;
+}
+
+/*Contact Us */
+
+.contacts .contact-heading h2 {
+  padding: 30px;
+  text-align: center;
+  font-size: 2.7em;
+  font-weight: bold;
+}
+
+.contacts .contacts-cont {
+  margin: auto;
+  width: 80%;
+}
+
+.contacts .contacts-cont .phys-address h3 {
+  font-size: 1.7em;
+  margin-bottom: 10px;
+}
+
+.contacts .contacts-cont .phys-address ul {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.contacts .contacts-cont .mail-address h3 {
+  font-size: 1.7em;
+  margin-bottom: 10px;
+}
+
+.contacts .contacts-cont .mail-address ul {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.contacts .contacts-cont .phone h3 {
+  font-size: 1.7em;
+  margin-bottom: 10px;
+}
+
+.contacts .contacts-cont .phone ul {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.contacts .contacts-cont .email h3 {
+  font-size: 1.7em;
+  margin-bottom: 10px;
+}
+
+.contacts .contacts-cont .email ul {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+.contacts .form_div h3 {
+  font-size: 1.7em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contacts .form-div {
+  margin: auto;
+  width: 80%;
+}
+
+.contacts .form_div .form-div label {
+  font-size: 1.2em;
+  margin-right: 20px;
+  text-align: right;
+  width: 200px;
+  clear: both;
+}
+
+.contacts .form_div .form-div input {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
