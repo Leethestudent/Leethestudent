@@ -130,6 +130,7 @@ img {
   justify-content: center;
   opacity: 0;
   transition: opacity 0.25s;
+  border-radius: 2em;
 }
 
 .welcomeSection .joinus .row .col .card .card-body:hover {
@@ -187,6 +188,17 @@ img {
   border: 2px solid;
   border-radius: 4px;
   padding: 0.5rem;
+  margin-bottom: 20px;
+}
+
+.aboutusSection .aboutus .staff .row .col img {
+  height: 200px;
+  object-fit: cover;
+  transition: 0.7s;
+}
+
+.aboutusSection .aboutus .staff .row .col img:hover {
+  transform: scale(1.2);
 }
 
 /* Footer */
@@ -199,6 +211,13 @@ img {
 .footer .container .social {
   float: right;
   margin: 1em;
+  margin-bottom: 10px;
+}
+
+.footer .container h1,
+p {
+  margin-top: 10px;
+  font-size: 1.5em;
 }
 
 /*Programess Section*/
