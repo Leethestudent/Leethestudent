@@ -203,6 +203,17 @@ img {
 
 /*Programess Section*/
 
+.programmes .programmes-intro {
+  height: 70px;
+}
+
+.programmes .programmes-intro h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
 .programmes .program-cards {
   display: flex;
   flex-wrap: wrap;
@@ -267,26 +278,43 @@ img {
   font-weight: bold;
 }
 
-.admissions input[type="text"] {
-  width: 500px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
+.admissions .admin-form {
+  max-width: 700px;
+  margin: 2rem auto;
+  border: solid 2px #03ffa9 !important;
+  padding: 2rem;
+  border-radius: 5px;
 }
 
-.admissions input[type="email"] {
-  width: 300px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
+.admissions .admin-form label {
+  display: block;
+  padding: 1rem 0 0.5rem;
+  font-size: 1.5em;
 }
 
-.admissions label {
-  width: 200px;
-  text-align: right;
-  clear: both;
-  float: left;
-  margin-right: 15px;
+.admissions .admin-form input,
+textarea {
+  display: block;
+  width: 100%;
+  border: 2px solid #8affd7;
+  padding: 0.4rem;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.admissions .admin-form #btn {
+  border: 0;
+  padding: 0.5rem;
+  background: #26ff17;
+  color: white;
+  margin: 1rem 0;
+  width: auto;
+  cursor: pointer;
+  transition: 0.3s background ease;
+}
+
+.admissions .admin-form #btn:hover {
+  background: #03ffa9;
 }
 
 /*Contact Us */
@@ -348,22 +376,41 @@ img {
   text-align: center;
 }
 
-.contacts .form-div {
-  margin: auto;
-  width: 80%;
+.contacts .form_div .contact-form {
+  max-width: 800px;
+  margin: 2rem auto;
+  border: solid 2px #03ffa9 !important;
+  padding: 2rem;
+  border-radius: 5px;
 }
 
-.contacts .form_div .form-div label {
-  font-size: 1.2em;
-  margin-right: 20px;
-  text-align: right;
-  width: 200px;
-  clear: both;
+.contacts .form_div .contact-form label {
+  display: block;
+  padding: 1rem 0 0.5rem;
+  font-size: 1.5em;
 }
 
-.contacts .form_div .form-div input {
-  width: 300px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
+.contacts .form_div .contact-form input,
+textarea {
+  display: block;
+  width: 100%;
+  border: 2px solid #8affd7;
+  padding: 0.4rem;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.contacts .form_div .contact-form #btn {
+  border: 0;
+  padding: 0.5rem;
+  background: #26ff17;
+  color: white;
+  margin: 1rem 0;
+  width: auto;
+  cursor: pointer;
+  transition: 0.3s background ease;
+}
+
+.contacts .form_div .contact-form #btn:hover {
+  background: #03ffa9;
 }
